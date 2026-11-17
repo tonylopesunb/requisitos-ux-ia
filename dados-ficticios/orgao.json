@@ -1,0 +1,55 @@
+{
+  "aviso": "Órgão, município, pessoas, serviços e registros inteiramente inventados para demonstração. Qualquer semelhança com entidade real é coincidência.",
+  "id": "ORG-01",
+  "nome": "Fundação Municipal de Cultura e Esporte de Pedra Clara",
+  "sigla": "FUNCEP",
+  "ente": "Município de Pedra Clara (fictício), com cerca de 240 mil habitantes",
+  "missao": "Ampliar o acesso da população a atividades culturais e esportivas, administrando os equipamentos públicos do município e os programas de fomento a artistas locais.",
+  "servicos_digitais": [
+    {
+      "id": "SRV-01",
+      "nome": "Reserva de quadras e ginásios",
+      "descricao": "Agendamento de horários nos 14 equipamentos esportivos municipais por pessoas, escolas e associações."
+    },
+    {
+      "id": "SRV-02",
+      "nome": "Inscrição em oficinas culturais",
+      "descricao": "Inscrição em oficinas gratuitas de música, fotografia, dança, teatro e artesanato, com sorteio de vagas e confirmação presencial."
+    },
+    {
+      "id": "SRV-03",
+      "nome": "Cadastro municipal de artistas e coletivos",
+      "descricao": "Cadastro obrigatório para participar dos editais de fomento cultural do município."
+    },
+    {
+      "id": "SRV-04",
+      "nome": "Passe cultural para pessoas idosas",
+      "descricao": "Carteira que garante entrada gratuita em eventos da fundação para pessoas com 60 anos ou mais, renovada a cada dois anos."
+    },
+    {
+      "id": "SRV-05",
+      "nome": "Agenda de eventos",
+      "descricao": "Programação mensal de eventos culturais e esportivos, consultada principalmente pelo celular."
+    }
+  ],
+  "canais_de_atendimento": [
+    "Portal de serviços (web e celular)",
+    "Balcão de atendimento na sede da fundação",
+    "Central telefônica 0800 fictícia",
+    "Ouvidoria por e-mail",
+    "Perfis da fundação em redes sociais"
+  ],
+  "equipe_de_produto": [
+    { "id": "EQP-01", "nome": "Marta Quintela", "papel": "Product Owner" },
+    { "id": "EQP-02", "nome": "Davi Arruda", "papel": "Designer de UX" },
+    { "id": "EQP-03", "nome": "Lúcia Barreto", "papel": "Analista de requisitos" },
+    { "id": "EQP-04", "nome": "Renan Siqueira", "papel": "Desenvolvedor" },
+    { "id": "EQP-05", "nome": "Caio Menezes", "papel": "Scrum Master" }
+  ],
+  "sprints": [
+    { "id": "SPR-12", "inicio": "2026-10-05", "fim": "2026-10-16", "situacao": "concluida" },
+    { "id": "SPR-13", "inicio": "2026-10-19", "fim": "2026-10-30", "situacao": "concluida" },
+    { "id": "SPR-14", "inicio": "2026-11-09", "fim": "2026-11-20", "situacao": "em_andamento" },
+    { "id": "SPR-15", "inicio": "2026-11-23", "fim": "2026-12-04", "situacao": "planejada" }
+  ]
+}

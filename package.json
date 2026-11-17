@@ -1,0 +1,16 @@
+{
+  "name": "requisitos-ux-ia",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Captura e gestão de requisitos orientada por experiência do usuário e apoiada por IA (protótipo).",
+  "packageManager": "pnpm@10.28.0",
+  "scripts": {
+    "dev:servidor": "pnpm --filter servidor dev",
+    "dev:cliente": "pnpm --filter cliente dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck",
+    "db:migrar": "pnpm --filter servidor db:migrar",
+    "db:semear": "pnpm --filter servidor db:semear"
+  }
+}

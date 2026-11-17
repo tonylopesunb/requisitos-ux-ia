@@ -1,0 +1,82 @@
+[
+  {
+    "id": "NEC-01",
+    "data_registro": "2026-09-02",
+    "canal": "Balcão de atendimento",
+    "registrada_por": "EQP-03",
+    "relatada_por": "PER-04",
+    "perfis_afetados": ["PER-01", "PER-04"],
+    "servico_id": "SRV-04",
+    "texto_original": "Muita gente idosa chega aqui no balcão porque não consegue renovar o passe cultural pelo site. Eles se perdem na hora de mandar a foto do documento e acabam desistindo. Se nada mudou desde a última vez, devia dar pra renovar sem mandar tudo de novo."
+  },
+  {
+    "id": "NEC-02",
+    "data_registro": "2026-09-04",
+    "canal": "Ouvidoria por e-mail",
+    "registrada_por": "EQP-03",
+    "relatada_por": "PER-02",
+    "perfis_afetados": ["PER-02"],
+    "servico_id": "SRV-01",
+    "texto_original": "Tento reservar a quadra do Ginásio Jardim das Águas pelo site, mas o calendário de horários não funciona com meu leitor de tela. Ele lê só 'botão, botão, botão' e não diz qual dia nem se o horário está livre. Acabo pedindo pra alguém fazer por mim."
+  },
+  {
+    "id": "NEC-03",
+    "data_registro": "2026-09-09",
+    "canal": "Formulário Fale Conosco",
+    "registrada_por": "EQP-03",
+    "relatada_por": "PER-03",
+    "perfis_afetados": ["PER-03"],
+    "servico_id": "SRV-03",
+    "texto_original": "O cadastro de artista é enorme e cai toda vez que a internet oscila. Já perdi tudo duas vezes. Dava pra salvar no meio do caminho e continuar depois? E avisar o tamanho máximo do portfólio antes de eu gastar meus dados enviando."
+  },
+  {
+    "id": "NEC-04",
+    "data_registro": "2026-09-10",
+    "canal": "Reunião de planejamento",
+    "registrada_por": "EQP-01",
+    "relatada_por": "PER-05",
+    "perfis_afetados": ["PER-05"],
+    "servico_id": "SRV-01",
+    "texto_original": "Preciso saber quais quadras ficam ociosas em cada turno pra remanejar os horários das escolinhas. Hoje eu junto na mão as planilhas de cada ginásio todo mês e, quando termino, a informação já está velha."
+  },
+  {
+    "id": "NEC-05",
+    "data_registro": "2026-09-15",
+    "canal": "Mensagem em rede social da fundação",
+    "registrada_por": "EQP-03",
+    "relatada_por": "PER-06",
+    "perfis_afetados": ["PER-06", "PER-01"],
+    "servico_id": "SRV-02",
+    "texto_original": "Me inscrevi na oficina de fotografia e fui sorteado, mas chegou um aviso dizendo que eu precisava comparecer para homologação. Não entendi o que era nem até quando. Quando fui perguntar já tinham passado minha vaga pra outra pessoa."
+  },
+  {
+    "id": "NEC-06",
+    "data_registro": "2026-09-16",
+    "canal": "Balcão de atendimento",
+    "registrada_por": "EQP-03",
+    "relatada_por": "PER-04",
+    "perfis_afetados": ["PER-01", "PER-04", "PER-06"],
+    "servico_id": "SRV-02",
+    "texto_original": "Quando a pessoa erra o CPF no formulário de oficina aparece só um X vermelho do lado do campo, sem dizer o que está errado. Ela apaga, digita de novo, dá o mesmo X e vem pro balcão achando que o sistema bloqueou o CPF dela."
+  },
+  {
+    "id": "NEC-07",
+    "data_registro": "2026-09-22",
+    "canal": "Central telefônica",
+    "registrada_por": "EQP-03",
+    "relatada_por": "Neta de PER-01, por telefone",
+    "perfis_afetados": ["PER-01"],
+    "servico_id": "SRV-05",
+    "texto_original": "Minha avó não consegue ler a agenda de eventos no celular. As letras são pequenininhas, o cinza é muito clarinho e, quando ela aumenta a tela, a tabela fica cortada pro lado e ela não acha o horário."
+  },
+  {
+    "id": "NEC-08",
+    "data_registro": "2026-09-24",
+    "canal": "Ouvidoria por e-mail",
+    "registrada_por": "EQP-03",
+    "relatada_por": "PER-02",
+    "perfis_afetados": ["PER-02", "PER-01"],
+    "servico_id": "SRV-01",
+    "texto_original": "Quando estou terminando a reserva aparece um aviso de que ela vai expirar, mas o aviso some antes de o leitor de tela terminar de ler. Não consigo achar o botão de pedir mais tempo e perco o horário que tinha escolhido."
+  }
+]

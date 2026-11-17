@@ -1,0 +1,42 @@
+services:
+  banco:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: requisitos
+      POSTGRES_PASSWORD: requisitos
+      POSTGRES_DB: requisitos
+    ports:
+      - "5432:5432"
+    volumes:
+      - dados-banco:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U requisitos"]
+      interval: 5s
+      retries: 10
+
+  ollama:
+    image: ollama/ollama:latest
+    profiles: ["local"]
+    ports:
+      - "11434:11434"
+    volumes:
+      - modelos-ollama:/root/.ollama
+
+  servidor:
+    build:
+      context: .
+      dockerfile: apps/servidor/Dockerfile
+    environment:
+      DATABASE_URL: postgres://requisitos:requisitos@banco:5432/requisitos
+      PORTA: "3000"
+      MOTOR_IA_PADRAO: simulado
+      OLLAMA_URL: http://ollama:11434
+    ports:
+      - "3000:3000"
+    depends_on:
+      banco:
+        condition: service_healthy
+
+volumes:
+  dados-banco:
+  modelos-ollama:

@@ -1,0 +1,46 @@
+:root {
+  --largura-max: 1100px;
+}
+body {
+  margin: 0;
+  background: var(--background, #fff);
+}
+.pagina {
+  max-width: var(--largura-max);
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+}
+.cabecalho {
+  border-bottom: 1px solid var(--gray-20, #ccc);
+  padding: 16px;
+}
+.cabecalho .pagina { padding: 0 16px; }
+.abas { display: flex; gap: 8px; margin: 16px 0 24px; flex-wrap: wrap; }
+.grade { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 24px; }
+@media (max-width: 800px) { .grade { grid-template-columns: 1fr; } }
+.lista { list-style: none; padding: 0; margin: 0; }
+.lista li { border: 1px solid var(--gray-20, #ccc); border-radius: 4px; margin-bottom: 8px; }
+.lista button.item {
+  all: unset; display: block; box-sizing: border-box; width: 100%; padding: 12px; cursor: pointer;
+}
+.lista button.item:focus-visible { outline: 4px dashed var(--focus, #c2850c); outline-offset: 2px; }
+.lista li[aria-current='true'] { border-color: var(--interactive, #1351b4); box-shadow: inset 4px 0 0 var(--interactive, #1351b4); }
+.painel { border: 1px solid var(--gray-20, #ccc); border-radius: 4px; padding: 16px; }
+.selo { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 0.85em; font-weight: 600; background: var(--gray-5, #f0f0f0); }
+.selo.pendente { background: #fff5c2; }
+.selo.aceita { background: #e3f5e1; }
+.selo.editada { background: #dbe8fb; }
+.selo.recusada, .selo.invalida { background: #fde0db; }
+.acoes { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px; align-items: flex-end; }
+.acoes.mt-0 { margin-top: 0; }
+fieldset { border: 0; padding: 0; margin: 0 0 16px; }
+.tabela-rolagem { overflow-x: auto; }
+textarea.campo, input.campo { width: 100%; box-sizing: border-box; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.br-input label, .br-textarea label { display: block; }
+select.campo {
+  height: 40px; padding: 0 12px; border: 1px solid var(--border-color, #888); border-radius: 6px;
+  background: var(--background, #fff); font-size: var(--font-size-scale-up-01, 16.8px); color: inherit;
+}
+select.campo:focus-visible { outline: 4px dashed var(--focus, #c2850c); outline-offset: 4px; }
+tbody th[scope="row"] { white-space: nowrap; }
