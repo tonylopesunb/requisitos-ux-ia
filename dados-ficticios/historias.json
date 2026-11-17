@@ -1,0 +1,154 @@
+[
+  {
+    "id": "HIS-01",
+    "necessidade_id": "NEC-01",
+    "perfil_id": "PER-01",
+    "origem": "proposta_ia_editada",
+    "sugestao_ia_id": "IA-0001",
+    "titulo": "Renovar passe cultural sem reenviar documentos",
+    "historia": "Como pessoa idosa que já tem o passe cultural, quero renovar o passe confirmando que meus dados não mudaram, para não precisar enviar de novo a foto do documento.",
+    "criterios_aceite": [
+      "Dado um passe a menos de 60 dias do vencimento, quando a pessoa informa que os dados não mudaram, então a renovação é concluída sem pedir documento.",
+      "Dado que a pessoa informa mudança de endereço, quando avança, então o sistema pede apenas o comprovante de endereço.",
+      "Dado o fim da renovação, quando a confirmação aparece, então ela informa a nova validade em linguagem simples e oferece a opção de receber o passe por mensagem de texto."
+    ],
+    "prioridade": "alta",
+    "estimativa_pontos": 5,
+    "dor": { "DOR-1": true, "DOR-2": true, "DOR-3": true, "DOR-4": true, "DOR-5": true, "DOR-6": true },
+    "situacao": "entregue",
+    "sprint_id": "SPR-12"
+  },
+  {
+    "id": "HIS-02",
+    "necessidade_id": "NEC-02",
+    "perfil_id": "PER-02",
+    "origem": "proposta_ia_aceita",
+    "sugestao_ia_id": "IA-0002",
+    "titulo": "Reservar horário de quadra com leitor de tela",
+    "historia": "Como pessoa cega que usa leitor de tela, quero que o calendário de reservas anuncie o dia, o horário e a disponibilidade de cada opção, para reservar a quadra sem depender de outra pessoa.",
+    "criterios_aceite": [
+      "Dado o calendário aberto, quando o foco chega a um horário, então o leitor de tela anuncia dia da semana, data, hora e situação (livre ou ocupado).",
+      "Dado o uso exclusivo do teclado, quando a pessoa navega pelo calendário, então todos os horários são alcançáveis e selecionáveis.",
+      "Dado que a pessoa escolhe uma data, quando a seleção é feita, então a página permanece no mesmo lugar e a mudança só ocorre ao acionar o botão Continuar."
+    ],
+    "prioridade": "alta",
+    "estimativa_pontos": 8,
+    "dor": { "DOR-1": true, "DOR-2": true, "DOR-3": true, "DOR-4": true, "DOR-5": true, "DOR-6": true },
+    "situacao": "entregue",
+    "sprint_id": "SPR-12"
+  },
+  {
+    "id": "HIS-03",
+    "necessidade_id": "NEC-03",
+    "perfil_id": "PER-03",
+    "origem": "proposta_ia_editada",
+    "sugestao_ia_id": "IA-0003",
+    "titulo": "Salvar cadastro de artista e continuar depois",
+    "historia": "Como artista que acessa o portal pelo celular com conexão instável, quero que o cadastro seja salvo a cada etapa concluída, para continuar de onde parei quando a conexão voltar.",
+    "criterios_aceite": [
+      "Dado que a pessoa conclui uma etapa, quando a conexão cai, então os dados da etapa ficam salvos e são recuperados no próximo acesso.",
+      "Dado o envio de portfólio, quando a pessoa seleciona um arquivo, então o sistema informa antes do envio o tamanho do arquivo e o limite aceito.",
+      "Dado o salvamento automático, quando ele ocorre, então uma mensagem discreta informa que o rascunho foi salvo e é anunciada por tecnologias assistivas."
+    ],
+    "prioridade": "alta",
+    "estimativa_pontos": 8,
+    "dor": { "DOR-1": true, "DOR-2": true, "DOR-3": true, "DOR-4": true, "DOR-5": false, "DOR-6": true },
+    "situacao": "bloqueada_dor",
+    "sprint_id": null
+  },
+  {
+    "id": "HIS-04",
+    "necessidade_id": "NEC-04",
+    "perfil_id": "PER-05",
+    "origem": "proposta_ia_aceita",
+    "sugestao_ia_id": "IA-0004",
+    "titulo": "Ver ocupação das quadras por turno",
+    "historia": "Como coordenadora de equipamentos esportivos, quero ver a ocupação de cada quadra por turno no mês corrente, para remanejar horários ociosos para as escolinhas sem consolidar planilhas.",
+    "criterios_aceite": [
+      "Dado o painel aberto, quando a coordenadora escolhe um mês, então vê a ocupação de cada equipamento por turno em percentual e em número de horas.",
+      "Dado o painel, quando a coordenadora prefere ler os números, então há uma tabela equivalente ao gráfico.",
+      "Dado um turno com ocupação abaixo de 30 por cento, quando o painel é exibido, então esse turno recebe marcação textual de 'ocioso', além da cor."
+    ],
+    "prioridade": "media",
+    "estimativa_pontos": 5,
+    "dor": { "DOR-1": true, "DOR-2": true, "DOR-3": true, "DOR-4": true, "DOR-5": true, "DOR-6": true },
+    "situacao": "em_sprint",
+    "sprint_id": "SPR-14"
+  },
+  {
+    "id": "HIS-05",
+    "necessidade_id": "NEC-05",
+    "perfil_id": "PER-06",
+    "origem": "proposta_ia_editada",
+    "sugestao_ia_id": "IA-0005",
+    "titulo": "Entender as etapas da inscrição em oficina",
+    "historia": "Como estudante surdo inscrito em oficina, quero ver as etapas da inscrição e o prazo de cada uma em linguagem simples e em Libras, para não perder a vaga por falta de entendimento.",
+    "criterios_aceite": [
+      "Dado o resultado do sorteio, quando a pessoa é sorteada, então a notificação informa em uma frase o que fazer, onde e até que dia.",
+      "Dada a página da inscrição, quando aberta, então mostra a linha do tempo das etapas com a etapa atual destacada por texto e por ícone.",
+      "Dada a explicação das etapas, quando a pessoa a abre, então há vídeo em Libras com legenda e controle de reprodução."
+    ],
+    "prioridade": "alta",
+    "estimativa_pontos": 5,
+    "dor": { "DOR-1": true, "DOR-2": true, "DOR-3": false, "DOR-4": true, "DOR-5": false, "DOR-6": true },
+    "situacao": "bloqueada_dor",
+    "sprint_id": null
+  },
+  {
+    "id": "HIS-06",
+    "necessidade_id": "NEC-06",
+    "perfil_id": "PER-01",
+    "origem": "proposta_ia_aceita",
+    "sugestao_ia_id": "IA-0006",
+    "titulo": "Entender o erro ao preencher o CPF",
+    "historia": "Como pessoa que se inscreve em oficina, quero que o formulário explique em palavras o que está errado no CPF e como corrigir, para concluir a inscrição sem ir ao balcão.",
+    "criterios_aceite": [
+      "Dado um CPF com dígito verificador inválido, quando a pessoa sai do campo, então aparece junto ao campo a mensagem 'O CPF tem 11 números. Confira os dois últimos.'",
+      "Dado o envio com erros, quando o formulário é submetido, então o foco vai para um resumo de erros com links para cada campo.",
+      "Dado um erro, quando exibido, então ele é identificado por texto e ícone, e não apenas por cor."
+    ],
+    "prioridade": "alta",
+    "estimativa_pontos": 3,
+    "dor": { "DOR-1": true, "DOR-2": true, "DOR-3": true, "DOR-4": true, "DOR-5": true, "DOR-6": true },
+    "situacao": "entregue",
+    "sprint_id": "SPR-13"
+  },
+  {
+    "id": "HIS-07",
+    "necessidade_id": "NEC-07",
+    "perfil_id": "PER-01",
+    "origem": "manual",
+    "sugestao_ia_id": null,
+    "titulo": "Ler a agenda de eventos com texto ampliado",
+    "historia": "Como pessoa idosa com baixa visão que consulta a agenda pelo celular, quero ampliar o texto sem que o conteúdo seja cortado, para encontrar o dia e o horário dos eventos.",
+    "criterios_aceite": [
+      "Dado o texto ampliado a 200 por cento, quando a agenda é exibida, então nenhum conteúdo é cortado e não há rolagem horizontal em tela de 320 pixels de largura.",
+      "Dado qualquer texto da agenda, quando exibido, então o contraste com o fundo é de pelo menos 4,5 para 1.",
+      "Dada a lista de eventos, quando exibida no celular, então cada evento aparece como um bloco com data, hora e local em linhas separadas."
+    ],
+    "prioridade": "media",
+    "estimativa_pontos": 3,
+    "dor": { "DOR-1": true, "DOR-2": true, "DOR-3": true, "DOR-4": true, "DOR-5": true, "DOR-6": true },
+    "situacao": "em_sprint",
+    "sprint_id": "SPR-14"
+  },
+  {
+    "id": "HIS-08",
+    "necessidade_id": "NEC-08",
+    "perfil_id": "PER-02",
+    "origem": "proposta_ia_aceita",
+    "sugestao_ia_id": "IA-0008",
+    "titulo": "Pedir mais tempo antes de a reserva expirar",
+    "historia": "Como pessoa que usa leitor de tela para reservar quadras, quero ser avisado com antecedência de que a reserva vai expirar e poder pedir mais tempo, para não perder o horário escolhido.",
+    "criterios_aceite": [
+      "Dado que faltam dois minutos para expirar, quando o aviso aparece, então ele permanece na tela até a pessoa responder.",
+      "Dado o aviso, quando ele aparece, então o foco vai para ele e o leitor de tela o anuncia.",
+      "Dado o aviso, quando a pessoa aciona Pedir mais tempo, então o prazo é estendido em dez minutos, até três vezes."
+    ],
+    "prioridade": "alta",
+    "estimativa_pontos": 3,
+    "dor": { "DOR-1": true, "DOR-2": true, "DOR-3": true, "DOR-4": true, "DOR-5": false, "DOR-6": true },
+    "situacao": "bloqueada_dor",
+    "sprint_id": null
+  }
+]

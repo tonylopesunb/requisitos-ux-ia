@@ -1,0 +1,29 @@
+[
+  {
+    "id": "ENT-01",
+    "titulo": "Calendário de reservas acessível",
+    "versao_portal": "3.8.0",
+    "sprint_id": "SPR-12",
+    "data_publicacao": "2026-10-19",
+    "historias": ["HIS-02"],
+    "observacao": "Validado antes da publicação com dois usuários de leitor de tela da associação de pessoas com deficiência visual do município."
+  },
+  {
+    "id": "ENT-02",
+    "titulo": "Renovação simplificada do passe cultural",
+    "versao_portal": "3.8.0",
+    "sprint_id": "SPR-12",
+    "data_publicacao": "2026-10-19",
+    "historias": ["HIS-01"],
+    "observacao": "Primeira semana com 212 renovações pelo portal, contra média de 64 no mesmo período do ano anterior (números fictícios)."
+  },
+  {
+    "id": "ENT-03",
+    "titulo": "Mensagens de erro no formulário de oficinas",
+    "versao_portal": "3.9.0",
+    "sprint_id": "SPR-13",
+    "data_publicacao": "2026-11-03",
+    "historias": ["HIS-06"],
+    "observacao": "O balcão relata queda nas visitas motivadas por erro de CPF (relato fictício)."
+  }
+]

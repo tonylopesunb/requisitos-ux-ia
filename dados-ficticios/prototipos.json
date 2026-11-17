@@ -1,0 +1,220 @@
+[
+  {
+    "id": "PRT-01",
+    "titulo": "Renovação do passe cultural",
+    "fidelidade": "media",
+    "ferramenta": "Wireframe navegável",
+    "versao_auditada": "0.1",
+    "versao_atual": "0.2",
+    "telas": [
+      {
+        "id": "PRT-01-T1",
+        "nome": "Início da renovação",
+        "descricao": "Tela com o número do passe e um botão para avançar.",
+        "elementos": [
+          { "id": "E1", "tipo": "campo_texto", "rotulo": "Nº do passe", "comportamento": "Aceita texto livre, sem máscara nem exemplo de formato." },
+          { "id": "E2", "tipo": "botao", "rotulo": "(ícone de seta, sem texto)", "comportamento": "Avança para o envio de documentos." }
+        ]
+      },
+      {
+        "id": "PRT-01-T2",
+        "nome": "Envio de documentos",
+        "descricao": "Pede foto do documento com foto e do comprovante de endereço em qualquer renovação.",
+        "elementos": [
+          { "id": "E3", "tipo": "upload", "rotulo": "Foto do documento (obrigatório)", "comportamento": "Exige novo envio mesmo quando os dados não mudaram desde a emissão." }
+        ]
+      },
+      {
+        "id": "PRT-01-T3",
+        "nome": "Confirmação",
+        "descricao": "Mensagem final da solicitação.",
+        "elementos": [
+          { "id": "E4", "tipo": "mensagem", "rotulo": "Solicitação protocolada sob o nº 2026/004417. Aguarde homologação.", "comportamento": "Texto estático, sem informar a nova validade." }
+        ]
+      }
+    ],
+    "historico_versoes": [
+      { "versao": "0.1", "data": "2026-09-08", "autor": "EQP-02", "mudanca": "Primeira versão, reaproveitando o fluxo de emissão." },
+      { "versao": "0.2", "data": "2026-09-14", "autor": "EQP-02", "mudanca": "Pergunta 'Seus dados mudaram?' antes do envio de documentos, botão com texto 'Continuar' e confirmação reescrita com a nova validade." }
+    ]
+  },
+  {
+    "id": "PRT-02",
+    "titulo": "Calendário de reservas de quadra",
+    "fidelidade": "media",
+    "ferramenta": "Wireframe navegável",
+    "versao_auditada": "0.1",
+    "versao_atual": "0.3",
+    "telas": [
+      {
+        "id": "PRT-02-T1",
+        "nome": "Escolha de data e horário",
+        "descricao": "Seletor de data e grade semanal de horários do equipamento escolhido.",
+        "elementos": [
+          { "id": "E1", "tipo": "grade", "rotulo": "Horários da semana", "comportamento": "Cada célula é um botão sem texto; a disponibilidade aparece apenas pelo fundo verde (livre) ou vermelho (ocupado)." },
+          { "id": "E2", "tipo": "legenda", "rotulo": "Verde = livre, Vermelho = ocupado", "comportamento": "Legenda apenas por amostra de cor." },
+          { "id": "E3", "tipo": "seletor_data", "rotulo": "Data", "comportamento": "Ao escolher a data, a página recarrega automaticamente na grade da semana correspondente." }
+        ]
+      }
+    ],
+    "historico_versoes": [
+      { "versao": "0.1", "data": "2026-09-10", "autor": "EQP-02", "mudanca": "Primeira versão." },
+      { "versao": "0.2", "data": "2026-09-17", "autor": "EQP-02", "mudanca": "Grade refeita como tabela com cabeçalhos de dia e hora; cada horário com nome acessível completo." },
+      { "versao": "0.3", "data": "2026-09-21", "autor": "EQP-02", "mudanca": "Situação indicada por texto e ícone; troca de semana só pelo botão Mostrar semana." }
+    ]
+  },
+  {
+    "id": "PRT-03",
+    "titulo": "Cadastro de artista em etapas",
+    "fidelidade": "baixa",
+    "ferramenta": "Esboço em papel digitalizado",
+    "versao_auditada": "0.1",
+    "versao_atual": "0.2",
+    "telas": [
+      {
+        "id": "PRT-03-T1",
+        "nome": "Etapas do cadastro",
+        "descricao": "Cadastro dividido em seis etapas, com salvamento automático ao fim de cada uma.",
+        "elementos": [
+          { "id": "E1", "tipo": "indicador_etapas", "rotulo": "1 2 3 4 5 6", "comportamento": "Números de 24 por 24 pixels, tocáveis, colados uns aos outros." },
+          { "id": "E2", "tipo": "salvamento_automatico", "rotulo": "(sem rótulo)", "comportamento": "Salva o rascunho em silêncio, sem nenhum aviso visual ou anúncio." }
+        ]
+      },
+      {
+        "id": "PRT-03-T2",
+        "nome": "Portfólio",
+        "descricao": "Envio de até cinco arquivos de imagem ou PDF.",
+        "elementos": [
+          { "id": "E3", "tipo": "upload", "rotulo": "Envie seu portfólio", "comportamento": "Sem informar formatos aceitos nem limite de tamanho; o arquivo é recusado só depois de enviado por completo." }
+        ]
+      }
+    ],
+    "historico_versoes": [
+      { "versao": "0.1", "data": "2026-09-18", "autor": "EQP-02", "mudanca": "Primeira versão." },
+      { "versao": "0.2", "data": "2026-09-25", "autor": "EQP-02", "mudanca": "Mensagem 'Rascunho salvo às 14h32' com região de status anunciada." }
+    ]
+  },
+  {
+    "id": "PRT-04",
+    "titulo": "Painel de ocupação dos equipamentos",
+    "fidelidade": "media",
+    "ferramenta": "Wireframe navegável",
+    "versao_auditada": "0.1",
+    "versao_atual": "0.2",
+    "telas": [
+      {
+        "id": "PRT-04-T1",
+        "nome": "Ocupação por turno",
+        "descricao": "Mapa de calor com equipamentos nas linhas e turnos nas colunas, e filtro por mês.",
+        "elementos": [
+          { "id": "E1", "tipo": "grafico_mapa_calor", "rotulo": "Ocupação", "comportamento": "Escala de cores do verde ao vermelho, sem valores escritos nem tabela alternativa." },
+          { "id": "E2", "tipo": "titulo", "rotulo": "Taxa de ociosidade", "comportamento": "O título fala em ociosidade enquanto a legenda e o filtro falam em ocupação." },
+          { "id": "E3", "tipo": "filtro", "rotulo": "Mês", "comportamento": "Lista suspensa com os últimos 12 meses." }
+        ]
+      }
+    ],
+    "historico_versoes": [
+      { "versao": "0.1", "data": "2026-09-22", "autor": "EQP-02", "mudanca": "Primeira versão." },
+      { "versao": "0.2", "data": "2026-10-01", "autor": "EQP-02", "mudanca": "Valores percentuais dentro das células, escala azul sequencial e tabela equivalente abaixo do gráfico." }
+    ]
+  },
+  {
+    "id": "PRT-05",
+    "titulo": "Etapas da inscrição em oficina",
+    "fidelidade": "media",
+    "ferramenta": "Wireframe navegável",
+    "versao_auditada": "0.1",
+    "versao_atual": "0.2",
+    "telas": [
+      {
+        "id": "PRT-05-T1",
+        "nome": "Notificação de sorteio",
+        "descricao": "Mensagem enviada por e-mail e pelo aplicativo à pessoa sorteada.",
+        "elementos": [
+          { "id": "E1", "tipo": "texto", "rotulo": "Corpo da notificação", "comportamento": "Três parágrafos; o prazo de confirmação aparece só no fim do terceiro." },
+          { "id": "E2", "tipo": "link", "rotulo": "Clique aqui", "comportamento": "Leva à página de etapas da inscrição." }
+        ]
+      },
+      {
+        "id": "PRT-05-T2",
+        "nome": "Linha do tempo da inscrição",
+        "descricao": "Etapas Inscrição, Sorteio, Confirmação presencial e Início da oficina, com vídeo explicativo em Libras.",
+        "elementos": [
+          { "id": "E3", "tipo": "video", "rotulo": "Entenda as etapas em Libras", "comportamento": "Começa a tocar sozinho ao abrir a página e repete em ciclo, sem botão de pausa visível." }
+        ]
+      }
+    ],
+    "historico_versoes": [
+      { "versao": "0.1", "data": "2026-09-23", "autor": "EQP-02", "mudanca": "Primeira versão." },
+      { "versao": "0.2", "data": "2026-10-02", "autor": "EQP-02", "mudanca": "Notificação começa pelo prazo; link renomeado para 'Ver o que fazer até 10/10'." }
+    ]
+  },
+  {
+    "id": "PRT-06",
+    "titulo": "Mensagens de erro do formulário de oficina",
+    "fidelidade": "alta",
+    "ferramenta": "Protótipo em HTML",
+    "versao_auditada": "0.1",
+    "versao_atual": "0.2",
+    "telas": [
+      {
+        "id": "PRT-06-T1",
+        "nome": "Formulário de inscrição",
+        "descricao": "Campos de nome, CPF, data de nascimento, telefone e oficina escolhida.",
+        "elementos": [
+          { "id": "E1", "tipo": "campo_texto", "rotulo": "CPF", "comportamento": "Em caso de erro, mostra um X vermelho ao lado do campo, sem texto." },
+          { "id": "E2", "tipo": "botao", "rotulo": "Enviar inscrição", "comportamento": "Ao enviar com erro, a página volta ao topo e o foco fica no botão." }
+        ]
+      }
+    ],
+    "historico_versoes": [
+      { "versao": "0.1", "data": "2026-09-24", "autor": "EQP-04", "mudanca": "Primeira versão, igual ao formulário em produção." },
+      { "versao": "0.2", "data": "2026-09-30", "autor": "EQP-04", "mudanca": "Mensagem textual junto ao campo e resumo de erros que recebe o foco após o envio." }
+    ]
+  },
+  {
+    "id": "PRT-07",
+    "titulo": "Agenda de eventos no celular",
+    "fidelidade": "media",
+    "ferramenta": "Wireframe navegável",
+    "versao_auditada": "0.1",
+    "versao_atual": "0.2",
+    "telas": [
+      {
+        "id": "PRT-07-T1",
+        "nome": "Agenda do mês",
+        "descricao": "Lista dos eventos do mês, com filtro por tipo.",
+        "elementos": [
+          { "id": "E1", "tipo": "tabela", "rotulo": "Eventos", "comportamento": "Tabela de cinco colunas com largura fixa de 720 pixels e fonte de 12 pixels definida em valor absoluto." },
+          { "id": "E2", "tipo": "texto", "rotulo": "Local e horário", "comportamento": "Texto cinza claro (#9AA0A6) sobre fundo branco." }
+        ]
+      }
+    ],
+    "historico_versoes": [
+      { "versao": "0.1", "data": "2026-09-28", "autor": "EQP-02", "mudanca": "Primeira versão." },
+      { "versao": "0.2", "data": "2026-10-06", "autor": "EQP-02", "mudanca": "Eventos em blocos empilhados, fonte em unidade relativa e texto secundário em #4A4F55." }
+    ]
+  },
+  {
+    "id": "PRT-08",
+    "titulo": "Aviso de expiração da reserva",
+    "fidelidade": "media",
+    "ferramenta": "Wireframe navegável",
+    "versao_auditada": "0.1",
+    "versao_atual": "0.1",
+    "telas": [
+      {
+        "id": "PRT-08-T1",
+        "nome": "Revisão da reserva",
+        "descricao": "Resumo da reserva com contador de tempo restante.",
+        "elementos": [
+          { "id": "E1", "tipo": "notificacao_flutuante", "rotulo": "Sua reserva expira em 2 minutos", "comportamento": "Aparece no canto inferior e desaparece sozinha após 4 segundos." },
+          { "id": "E2", "tipo": "botao", "rotulo": "Estender", "comportamento": "Existe apenas dentro da notificação flutuante, que não recebe foco pelo teclado." }
+        ]
+      }
+    ],
+    "historico_versoes": [
+      { "versao": "0.1", "data": "2026-09-29", "autor": "EQP-02", "mudanca": "Primeira versão." }
+    ]
+  }
+]

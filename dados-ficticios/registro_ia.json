@@ -1,0 +1,571 @@
+[
+  {
+    "id": "IA-0001",
+    "data_hora": "2026-09-11T14:02:11-03:00",
+    "funcao": "proposta_historia",
+    "provedor": "nuvem_demo",
+    "modelo": "claude-sonnet-5-5",
+    "versao_modelo": "2026-09",
+    "versao_prompt": "historia-v0.4",
+    "entrada": {
+      "necessidade_id": "NEC-01"
+    },
+    "saida": "Como pessoa idosa, quero renovar meu passe cultural pelo celular, para não precisar ir ao balcão. Critérios: (1) a renovação pode ser feita pelo portal; (2) o sistema valida a foto do documento; (3) a confirmação mostra o número do protocolo.",
+    "decisao": "editar",
+    "decidido_por": "EQP-03",
+    "data_decisao": "2026-09-11",
+    "resultado_final": "HIS-01",
+    "observacao": "A proposta manteve o envio da foto, que é justamente o ponto de abandono relatado. A analista reescreveu a história em torno da confirmação de que os dados não mudaram."
+  },
+  {
+    "id": "IA-0002",
+    "data_hora": "2026-09-11T14:05:40-03:00",
+    "funcao": "proposta_historia",
+    "provedor": "nuvem_demo",
+    "modelo": "claude-sonnet-5-5",
+    "versao_modelo": "2026-09",
+    "versao_prompt": "historia-v0.4",
+    "entrada": {
+      "necessidade_id": "NEC-02"
+    },
+    "saida": "História e três critérios de aceite idênticos aos registrados em HIS-02.",
+    "decisao": "aceitar",
+    "decidido_por": "EQP-03",
+    "data_decisao": "2026-09-11",
+    "resultado_final": "HIS-02",
+    "observacao": null
+  },
+  {
+    "id": "IA-0003",
+    "data_hora": "2026-09-11T14:09:03-03:00",
+    "funcao": "proposta_historia",
+    "provedor": "nuvem_demo",
+    "modelo": "claude-sonnet-5-5",
+    "versao_modelo": "2026-09",
+    "versao_prompt": "historia-v0.4",
+    "entrada": {
+      "necessidade_id": "NEC-03"
+    },
+    "saida": "Como artista, quero salvar meu cadastro a qualquer momento, para continuar depois. Critérios: (1) há um botão Salvar rascunho em todas as etapas; (2) o rascunho fica disponível por 30 dias.",
+    "decisao": "editar",
+    "decidido_por": "EQP-03",
+    "data_decisao": "2026-09-11",
+    "resultado_final": "HIS-03",
+    "observacao": "Salvamento manual não resolve a queda de conexão, porque a pessoa não sabe quando ela vai acontecer. A analista trocou por salvamento automático por etapa e incluiu o critério do limite de arquivo, que a IA omitiu."
+  },
+  {
+    "id": "IA-0004",
+    "data_hora": "2026-09-11T14:12:47-03:00",
+    "funcao": "proposta_historia",
+    "provedor": "nuvem_demo",
+    "modelo": "claude-sonnet-5-5",
+    "versao_modelo": "2026-09",
+    "versao_prompt": "historia-v0.4",
+    "entrada": {
+      "necessidade_id": "NEC-04"
+    },
+    "saida": "História e critérios de aceite idênticos aos registrados em HIS-04.",
+    "decisao": "aceitar",
+    "decidido_por": "EQP-03",
+    "data_decisao": "2026-09-11",
+    "resultado_final": "HIS-04",
+    "observacao": null
+  },
+  {
+    "id": "IA-0005",
+    "data_hora": "2026-09-16T10:21:30-03:00",
+    "funcao": "proposta_historia",
+    "provedor": "nuvem_demo",
+    "modelo": "claude-sonnet-5-5",
+    "versao_modelo": "2026-09",
+    "versao_prompt": "historia-v0.4",
+    "entrada": {
+      "necessidade_id": "NEC-05"
+    },
+    "saida": "Como participante de oficina, quero receber lembretes do prazo de homologação, para não perder minha vaga.",
+    "decisao": "editar",
+    "decidido_por": "EQP-03",
+    "data_decisao": "2026-09-16",
+    "resultado_final": "HIS-05",
+    "observacao": "A proposta repetiu o termo 'homologação' e tratou o problema como esquecimento. A causa relatada é de compreensão, por isso a analista incluiu linguagem simples e Libras."
+  },
+  {
+    "id": "IA-0006",
+    "data_hora": "2026-09-16T10:24:02-03:00",
+    "funcao": "proposta_historia",
+    "provedor": "nuvem_demo",
+    "modelo": "claude-sonnet-5-5",
+    "versao_modelo": "2026-09",
+    "versao_prompt": "historia-v0.4",
+    "entrada": {
+      "necessidade_id": "NEC-06"
+    },
+    "saida": "História e critérios de aceite idênticos aos registrados em HIS-06.",
+    "decisao": "aceitar",
+    "decidido_por": "EQP-03",
+    "data_decisao": "2026-09-16",
+    "resultado_final": "HIS-06",
+    "observacao": null
+  },
+  {
+    "id": "IA-0007",
+    "data_hora": "2026-09-23T09:40:15-03:00",
+    "funcao": "proposta_historia",
+    "provedor": "nuvem_demo",
+    "modelo": "claude-sonnet-5-5",
+    "versao_modelo": "2026-09",
+    "versao_prompt": "historia-v0.4",
+    "entrada": {
+      "necessidade_id": "NEC-07"
+    },
+    "saida": "Como usuário, quero que a fonte padrão da agenda seja de 18 pixels, para ler melhor.",
+    "decisao": "recusar",
+    "decidido_por": "EQP-03",
+    "data_decisao": "2026-09-23",
+    "resultado_final": null,
+    "observacao": "A proposta prescreve uma solução e ignora o corte da tabela ao ampliar, que é o problema principal relatado. A analista escreveu a HIS-07 manualmente."
+  },
+  {
+    "id": "IA-0008",
+    "data_hora": "2026-09-25T16:10:58-03:00",
+    "funcao": "proposta_historia",
+    "provedor": "ollama_local",
+    "modelo": "llama3.1:8b",
+    "versao_modelo": "q4_K_M",
+    "versao_prompt": "historia-v0.4",
+    "entrada": {
+      "necessidade_id": "NEC-08"
+    },
+    "saida": "História e critérios de aceite idênticos aos registrados em HIS-08.",
+    "decisao": "aceitar",
+    "decidido_por": "EQP-03",
+    "data_decisao": "2026-09-25",
+    "resultado_final": "HIS-08",
+    "observacao": "Execução de teste com o motor local, para demonstrar a troca de provedor."
+  },
+  {
+    "id": "IA-0009",
+    "data_hora": "2026-09-12T11:30:00-03:00",
+    "funcao": "auditoria_antecipada",
+    "provedor": "nuvem_demo",
+    "modelo": "claude-sonnet-5-5",
+    "versao_modelo": "2026-09",
+    "versao_prompt": "auditoria-v0.3",
+    "entrada": {
+      "prototipo_id": "PRT-01",
+      "versao_prototipo": "0.1",
+      "perfis": [
+        "PER-01"
+      ]
+    },
+    "saida": "Três riscos: RSK-01 (severidade 3), RSK-02 (severidade 3) e RSK-03 (severidade 3).",
+    "decisao": "editar",
+    "decidido_por": "EQP-02",
+    "data_decisao": "2026-09-12",
+    "resultado_final": [
+      "RSK-01",
+      "RSK-02",
+      "RSK-03"
+    ],
+    "observacao": "Severidade de RSK-03 reduzida de 3 para 2, porque a mensagem aparece depois de a renovação estar concluída."
+  },
+  {
+    "id": "IA-0010",
+    "data_hora": "2026-09-15T09:12:44-03:00",
+    "funcao": "auditoria_antecipada",
+    "provedor": "nuvem_demo",
+    "modelo": "claude-sonnet-5-5",
+    "versao_modelo": "2026-09",
+    "versao_prompt": "auditoria-v0.3",
+    "entrada": {
+      "prototipo_id": "PRT-02",
+      "versao_prototipo": "0.1",
+      "perfis": [
+        "PER-02"
+      ]
+    },
+    "saida": "Três riscos: RSK-04 (severidade 4), RSK-05 (severidade 3) e RSK-06 (severidade 3).",
+    "decisao": "aceitar",
+    "decidido_por": "EQP-02",
+    "data_decisao": "2026-09-15",
+    "resultado_final": [
+      "RSK-04",
+      "RSK-05",
+      "RSK-06"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "IA-0011",
+    "data_hora": "2026-09-19T15:48:20-03:00",
+    "funcao": "auditoria_antecipada",
+    "provedor": "nuvem_demo",
+    "modelo": "claude-sonnet-5-5",
+    "versao_modelo": "2026-09",
+    "versao_prompt": "auditoria-v0.3",
+    "entrada": {
+      "prototipo_id": "PRT-03",
+      "versao_prototipo": "0.1",
+      "perfis": [
+        "PER-03"
+      ]
+    },
+    "saida": "Três riscos: salvamento sem retorno (severidade 2), envio sem limite informado (severidade 3) e ausência de CAPTCHA no envio (severidade 2).",
+    "decisao": "editar",
+    "decidido_por": "EQP-02",
+    "data_decisao": "2026-09-19",
+    "resultado_final": [
+      "RSK-07",
+      "RSK-08"
+    ],
+    "observacao": "O terceiro apontamento foi descartado como falso positivo, já que o cadastro exige acesso autenticado e não há CAPTCHA no protótipo. O designer registrou à parte o RSK-09, que a IA não identificou."
+  },
+  {
+    "id": "IA-0012",
+    "data_hora": "2026-09-30T10:05:31-03:00",
+    "funcao": "auditoria_antecipada",
+    "provedor": "nuvem_demo",
+    "modelo": "claude-sonnet-5-5",
+    "versao_modelo": "2026-09",
+    "versao_prompt": "auditoria-v0.3",
+    "entrada": {
+      "prototipo_id": "PRT-04",
+      "versao_prototipo": "0.1",
+      "perfis": [
+        "PER-05"
+      ]
+    },
+    "saida": "Dois riscos: RSK-10 (severidade 3) e RSK-11 (severidade 2).",
+    "decisao": "editar",
+    "decidido_por": "EQP-02",
+    "data_decisao": "2026-09-30",
+    "resultado_final": [
+      "RSK-10",
+      "RSK-11"
+    ],
+    "observacao": "Severidade de RSK-11 reduzida de 2 para 1."
+  },
+  {
+    "id": "IA-0013",
+    "data_hora": "2026-09-30T14:22:10-03:00",
+    "funcao": "auditoria_antecipada",
+    "provedor": "nuvem_demo",
+    "modelo": "claude-sonnet-5-5",
+    "versao_modelo": "2026-09",
+    "versao_prompt": "auditoria-v0.3",
+    "entrada": {
+      "prototipo_id": "PRT-05",
+      "versao_prototipo": "0.1",
+      "perfis": [
+        "PER-06"
+      ]
+    },
+    "saida": "Dois riscos: RSK-12 (severidade 2) e RSK-13 (severidade 3).",
+    "decisao": "aceitar",
+    "decidido_por": "EQP-02",
+    "data_decisao": "2026-09-30",
+    "resultado_final": [
+      "RSK-12",
+      "RSK-13"
+    ],
+    "observacao": "A analista registrou depois o RSK-14, sobre a reprodução automática do vídeo, que a IA não apontou."
+  },
+  {
+    "id": "IA-0014",
+    "data_hora": "2026-09-25T11:00:47-03:00",
+    "funcao": "auditoria_antecipada",
+    "provedor": "nuvem_demo",
+    "modelo": "claude-sonnet-5-5",
+    "versao_modelo": "2026-09",
+    "versao_prompt": "auditoria-v0.3",
+    "entrada": {
+      "prototipo_id": "PRT-06",
+      "versao_prototipo": "0.1",
+      "perfis": [
+        "PER-01",
+        "PER-02"
+      ]
+    },
+    "saida": "Dois riscos: RSK-15 (severidade 4) e RSK-16 (severidade 3).",
+    "decisao": "aceitar",
+    "decidido_por": "EQP-02",
+    "data_decisao": "2026-09-25",
+    "resultado_final": [
+      "RSK-15",
+      "RSK-16"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "IA-0015",
+    "data_hora": "2026-10-01T09:33:19-03:00",
+    "funcao": "auditoria_antecipada",
+    "provedor": "nuvem_demo",
+    "modelo": "claude-sonnet-5-5",
+    "versao_modelo": "2026-09",
+    "versao_prompt": "auditoria-v0.3",
+    "entrada": {
+      "prototipo_id": "PRT-07",
+      "versao_prototipo": "0.1",
+      "perfis": [
+        "PER-01"
+      ]
+    },
+    "saida": "Dois riscos: RSK-17 (severidade 4) e RSK-18 (severidade 3).",
+    "decisao": "aceitar",
+    "decidido_por": "EQP-02",
+    "data_decisao": "2026-10-01",
+    "resultado_final": [
+      "RSK-17",
+      "RSK-18"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "IA-0016",
+    "data_hora": "2026-10-01T16:45:02-03:00",
+    "funcao": "auditoria_antecipada",
+    "provedor": "nuvem_demo",
+    "modelo": "claude-sonnet-5-5",
+    "versao_modelo": "2026-09",
+    "versao_prompt": "auditoria-v0.3",
+    "entrada": {
+      "prototipo_id": "PRT-08",
+      "versao_prototipo": "0.1",
+      "perfis": [
+        "PER-02",
+        "PER-01"
+      ]
+    },
+    "saida": "Dois riscos: RSK-19 (severidade 4) e RSK-20 (severidade 3).",
+    "decisao": "editar",
+    "decidido_por": "EQP-02",
+    "data_decisao": "2026-10-01",
+    "resultado_final": [
+      "RSK-19",
+      "RSK-20"
+    ],
+    "observacao": "Severidade de RSK-20 elevada de 3 para 4, porque sem o botão a pessoa perde a reserva."
+  },
+  {
+    "id": "IA-0017",
+    "data_hora": "2026-09-12T11:41:56-03:00",
+    "funcao": "auditoria_antecipada",
+    "provedor": "nuvem_demo",
+    "modelo": "claude-sonnet-5-5",
+    "versao_modelo": "2026-09",
+    "versao_prompt": "auditoria-v0.3",
+    "entrada": {
+      "historia_id": "HIS-01",
+      "perfis": [
+        "PER-01"
+      ]
+    },
+    "saida": "Um risco: RSK-21 (severidade 2).",
+    "decisao": "aceitar",
+    "decidido_por": "EQP-02",
+    "data_decisao": "2026-09-12",
+    "resultado_final": [
+      "RSK-21"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "IA-0018",
+    "data_hora": "2026-09-16T10:30:12-03:00",
+    "funcao": "auditoria_antecipada",
+    "provedor": "nuvem_demo",
+    "modelo": "claude-sonnet-5-5",
+    "versao_modelo": "2026-09",
+    "versao_prompt": "auditoria-v0.3",
+    "entrada": {
+      "necessidade_id": "NEC-05",
+      "perfis": [
+        "PER-06"
+      ]
+    },
+    "saida": "Um risco: RSK-22 (severidade 3).",
+    "decisao": "aceitar",
+    "decidido_por": "EQP-02",
+    "data_decisao": "2026-09-18",
+    "resultado_final": [
+      "RSK-22"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "IA-0019",
+    "data_hora": "2026-09-26T08:55:00-03:00",
+    "funcao": "sugestao_vinculo",
+    "provedor": "nuvem_demo",
+    "modelo": "claude-sonnet-5-5",
+    "versao_modelo": "2026-09",
+    "versao_prompt": "vinculo-v0.2",
+    "entrada": {
+      "tipo": "necessidade_para_historia",
+      "lote": "Necessidades e histórias cadastradas até a data"
+    },
+    "saida": "Sete vínculos de origem, com confiança entre 0,89 e 0,98.",
+    "decisao": "aceitar",
+    "decidido_por": "EQP-01",
+    "data_decisao": "2026-09-12",
+    "resultado_final": [
+      "VIN-01",
+      "VIN-04",
+      "VIN-09",
+      "VIN-11",
+      "VIN-13",
+      "VIN-15",
+      "VIN-18"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "IA-0020",
+    "data_hora": "2026-09-26T10:14:33-03:00",
+    "funcao": "sugestao_vinculo",
+    "provedor": "nuvem_demo",
+    "modelo": "claude-sonnet-5-5",
+    "versao_modelo": "2026-09",
+    "versao_prompt": "vinculo-v0.2",
+    "entrada": {
+      "necessidade_id": "NEC-08"
+    },
+    "saida": "NEC-08 origina HIS-02 (confiança 0,71).",
+    "decisao": "editar",
+    "decidido_por": "EQP-01",
+    "data_decisao": "2026-09-26",
+    "resultado_final": [
+      "VIN-07"
+    ],
+    "observacao": "Destino alterado para HIS-08."
+  },
+  {
+    "id": "IA-0021",
+    "data_hora": "2026-09-26T10:14:33-03:00",
+    "funcao": "sugestao_vinculo",
+    "provedor": "nuvem_demo",
+    "modelo": "claude-sonnet-5-5",
+    "versao_modelo": "2026-09",
+    "versao_prompt": "vinculo-v0.2",
+    "entrada": {
+      "necessidade_id": "NEC-07"
+    },
+    "saida": "NEC-07 origina HIS-05 (confiança 0,58).",
+    "decisao": "recusar",
+    "decidido_por": "EQP-01",
+    "data_decisao": "2026-09-26",
+    "resultado_final": [
+      "VIN-20"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "IA-0022",
+    "data_hora": "2026-10-05T09:02:48-03:00",
+    "funcao": "sugestao_vinculo",
+    "provedor": "nuvem_demo",
+    "modelo": "claude-sonnet-5-5",
+    "versao_modelo": "2026-09",
+    "versao_prompt": "vinculo-v0.2",
+    "entrada": {
+      "necessidade_id": "NEC-06"
+    },
+    "saida": "NEC-06 também origina HIS-03 (confiança 0,64), porque o cadastro de artista usa o mesmo componente de campo de CPF.",
+    "decisao": "pendente",
+    "decidido_por": null,
+    "data_decisao": null,
+    "resultado_final": [
+      "VIN-21"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "IA-0023",
+    "data_hora": "2026-09-29T17:20:05-03:00",
+    "funcao": "sugestao_vinculo",
+    "provedor": "nuvem_demo",
+    "modelo": "claude-sonnet-5-5",
+    "versao_modelo": "2026-09",
+    "versao_prompt": "vinculo-v0.2",
+    "entrada": {
+      "tipo": "historia_para_prototipo",
+      "lote": "Histórias e protótipos cadastrados até a data"
+    },
+    "saida": "Sete vínculos de detalhamento, com confiança entre 0,90 e 0,97.",
+    "decisao": "aceitar",
+    "decidido_por": "EQP-02",
+    "data_decisao": "2026-09-29",
+    "resultado_final": [
+      "VIN-02",
+      "VIN-05",
+      "VIN-08",
+      "VIN-10",
+      "VIN-12",
+      "VIN-16",
+      "VIN-19"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "IA-0024",
+    "data_hora": "2026-10-02T11:47:39-03:00",
+    "funcao": "sugestao_vinculo",
+    "provedor": "nuvem_demo",
+    "modelo": "claude-sonnet-5-5",
+    "versao_modelo": "2026-09",
+    "versao_prompt": "vinculo-v0.2",
+    "entrada": {
+      "historia_id": "HIS-05"
+    },
+    "saida": "HIS-05 é detalhada por PRT-05 (confiança 0,88).",
+    "decisao": "pendente",
+    "decidido_por": null,
+    "data_decisao": null,
+    "resultado_final": [
+      "VIN-14"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "IA-0025",
+    "data_hora": "2026-11-03T18:05:00-03:00",
+    "funcao": "sugestao_vinculo",
+    "provedor": "nuvem_demo",
+    "modelo": "claude-sonnet-5-5",
+    "versao_modelo": "2026-09",
+    "versao_prompt": "vinculo-v0.2",
+    "entrada": {
+      "tipo": "prototipo_para_entrega",
+      "lote": "Notas das versões 3.8.0 e 3.9.0 do portal"
+    },
+    "saida": "Três vínculos de implementação, com confiança entre 0,91 e 0,94.",
+    "decisao": "aceitar",
+    "decidido_por": "EQP-04",
+    "data_decisao": "2026-11-03",
+    "resultado_final": [
+      "VIN-03",
+      "VIN-06",
+      "VIN-17"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "IA-0026",
+    "data_hora": "2026-10-02T09:15:27-03:00",
+    "funcao": "sugestao_tratamento",
+    "provedor": "nuvem_demo",
+    "modelo": "claude-sonnet-5-5",
+    "versao_modelo": "2026-09",
+    "versao_prompt": "tratamento-v0.1",
+    "entrada": {
+      "risco_id": "RSK-19"
+    },
+    "saida": "Corrigir no protótipo: trocar a notificação flutuante por um diálogo modal que recebe o foco, permanece até a resposta e oferece 'Pedir mais 10 minutos' e 'Sair da reserva'.",
+    "decisao": "pendente",
+    "decidido_por": null,
+    "data_decisao": null,
+    "resultado_final": null,
+    "observacao": null
+  }
+]

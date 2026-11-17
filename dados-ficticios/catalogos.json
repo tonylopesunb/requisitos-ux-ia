@@ -1,0 +1,73 @@
+{
+  "escala_severidade": [
+    { "nivel": 0, "rotulo": "Não é problema", "descricao": "A equipe não reconhece ali um problema de usabilidade." },
+    { "nivel": 1, "rotulo": "Cosmético", "descricao": "Corrigir apenas se houver tempo disponível." },
+    { "nivel": 2, "rotulo": "Menor", "descricao": "Correção de baixa prioridade." },
+    { "nivel": 3, "rotulo": "Maior", "descricao": "Correção importante, de alta prioridade." },
+    { "nivel": 4, "rotulo": "Catástrofe", "descricao": "Deve ser corrigido antes de a funcionalidade chegar ao público." }
+  ],
+  "heuristicas_nielsen": [
+    { "id": "H1", "nome": "Visibilidade do status do sistema" },
+    { "id": "H2", "nome": "Correspondência entre o sistema e o mundo real" },
+    { "id": "H3", "nome": "Controle e liberdade do usuário" },
+    { "id": "H4", "nome": "Consistência e padrões" },
+    { "id": "H5", "nome": "Prevenção de erros" },
+    { "id": "H6", "nome": "Reconhecimento em vez de memorização" },
+    { "id": "H7", "nome": "Flexibilidade e eficiência de uso" },
+    { "id": "H8", "nome": "Estética e design minimalista" },
+    { "id": "H9", "nome": "Ajudar os usuários a reconhecer, diagnosticar e se recuperar de erros" },
+    { "id": "H10", "nome": "Ajuda e documentação" }
+  ],
+  "criterios_wcag_usados": [
+    { "id": "1.1.1", "nome": "Conteúdo não textual", "nivel": "A" },
+    { "id": "1.3.1", "nome": "Informações e relações", "nivel": "A" },
+    { "id": "1.4.1", "nome": "Uso de cor", "nivel": "A" },
+    { "id": "1.4.3", "nome": "Contraste (mínimo)", "nivel": "AA" },
+    { "id": "1.4.4", "nome": "Redimensionar texto", "nivel": "AA" },
+    { "id": "1.4.10", "nome": "Refluxo", "nivel": "AA" },
+    { "id": "2.1.1", "nome": "Teclado", "nivel": "A" },
+    { "id": "2.2.1", "nome": "Tempo ajustável", "nivel": "A" },
+    { "id": "2.2.2", "nome": "Pausar, parar, ocultar", "nivel": "A" },
+    { "id": "2.4.3", "nome": "Ordem do foco", "nivel": "A" },
+    { "id": "2.4.4", "nome": "Finalidade do link (em contexto)", "nivel": "A" },
+    { "id": "2.5.8", "nome": "Tamanho do alvo (mínimo)", "nivel": "AA" },
+    { "id": "3.1.5", "nome": "Nível de leitura", "nivel": "AAA" },
+    { "id": "3.2.2", "nome": "Em entrada", "nivel": "A" },
+    { "id": "3.3.1", "nome": "Identificação de erro", "nivel": "A" },
+    { "id": "3.3.2", "nome": "Rótulos ou instruções", "nivel": "A" },
+    { "id": "3.3.7", "nome": "Entrada redundante", "nivel": "A" },
+    { "id": "4.1.2", "nome": "Nome, função, valor", "nivel": "A" },
+    { "id": "4.1.3", "nome": "Mensagens de status", "nivel": "AA" }
+  ],
+  "recomendacoes_emag_usadas": [
+    { "id": "2.1", "nome": "Disponibilizar todas as funções da página via teclado" },
+    { "id": "2.5", "nome": "Fornecer alternativa para modificar limite de tempo" },
+    { "id": "2.7", "nome": "Assegurar o controle do usuário sobre as alterações temporais do conteúdo" },
+    { "id": "3.5", "nome": "Descrever links clara e sucintamente" },
+    { "id": "3.6", "nome": "Fornecer alternativa em texto para as imagens do sítio" },
+    { "id": "3.10", "nome": "Associar células de dados às células de cabeçalho" },
+    { "id": "3.11", "nome": "Garantir a leitura e compreensão das informações" },
+    { "id": "4.1", "nome": "Oferecer contraste mínimo entre plano de fundo e primeiro plano" },
+    { "id": "4.2", "nome": "Não utilizar apenas cor ou outras características sensoriais para diferenciar elementos" },
+    { "id": "4.3", "nome": "Permitir redimensionamento sem perda de funcionalidade" },
+    { "id": "6.1", "nome": "Fornecer alternativa em texto para os botões de imagem de formulários" },
+    { "id": "6.3", "nome": "Estabelecer uma ordem lógica de navegação" },
+    { "id": "6.4", "nome": "Não provocar automaticamente alteração no contexto" },
+    { "id": "6.5", "nome": "Fornecer instruções para entrada de dados" },
+    { "id": "6.6", "nome": "Identificar e descrever erros de entrada de dados e confirmar o envio das informações" }
+  ],
+  "tipos_de_tratamento": [
+    { "id": "corrigir_no_prototipo", "descricao": "O protótipo é alterado antes da implementação e a nova versão é registrada." },
+    { "id": "aceitar_com_justificativa", "descricao": "A equipe aceita o risco de forma consciente e registra o motivo." },
+    { "id": "transferir_para_backlog", "descricao": "O risco vira item próprio de backlog, com prazo, e a história segue com essa dependência declarada." },
+    { "id": "validar_com_usuarios", "descricao": "O risco será confirmado ou descartado em teste com pessoas do perfil afetado, com data marcada." }
+  ],
+  "checklist_dor": [
+    { "id": "DOR-1", "descricao": "História escrita no formato padrão, com perfil identificado" },
+    { "id": "DOR-2", "descricao": "Critérios de aceite testáveis" },
+    { "id": "DOR-3", "descricao": "Protótipo vinculado e com vínculo confirmado por uma pessoa" },
+    { "id": "DOR-4", "descricao": "Auditoria antecipada de usabilidade e acessibilidade realizada" },
+    { "id": "DOR-5", "descricao": "Todo risco sinalizado possui tratamento registrado", "bloqueante": true },
+    { "id": "DOR-6", "descricao": "Estimativa feita pelo time" }
+  ]
+}
